@@ -2,6 +2,10 @@ import React from 'react';
 import Card from './Card.js'
 
 const CardList = ({ robots }) => {
+    // Below 3 rows are Error testing
+    // if (true) {
+    //     throw new Error('NOOOOOOO!')
+    // }
     return (
         <div>
             {
